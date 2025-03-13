@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #232830; 
+    color: #a1e7de; 
+}
+
+.navbar {
+    background-color: #33444d !important; 
+    border-bottom: 3px solid #4b6975; 
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important; 
+}
+
+.nav-link:hover {
+    color: #6ea0a5 !important; 
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section {
+    background-color: #33444d; 
+    padding: 100px 0;
+    text-align: center;
+    color: #23675e;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #6ea0a5;
+}
+
+.hero-section img {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.hero-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section .lead {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff; 
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    color: #d4ecee; 
+}
+
+.benefits-section {
+    padding: 60px 0;
+    background-color: #4b6975; 
+}
+
+.benefits-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ffffff; 
+}
+
+.benefit-card {
+    margin-bottom: 30px;
+    border: 2px solid #6ea0a5; 
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    background-color: #33444d; 
+}
+
+.benefit-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.benefit-card .card-body {
+    padding: 20px;
+}
+
+.benefit-card .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #ffffff; 
+}
+
+.benefit-card .card-text {
+    font-size: 1rem;
+    color: #ffffff; 
+}
+.partners-section {
+    padding: 60px 0;
+    background-color: #84a7bb;
+    text-align: center;
+    margin-bottom: 0; 
+}
+
+.partners-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #f9f9f9;
+}
+
+.partners-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.partners-logos img {
+    max-width: 200px;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.partners-logos img:hover {
+    filter: grayscale(0%);
+}
+
+.carousel-inner img {
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: #466d95;
+    color: #f9f9f9; 
+    text-align: center;
+    padding: 10px 0; 
+    margin-top: 0;
+}

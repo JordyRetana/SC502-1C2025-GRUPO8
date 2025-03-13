@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtered Product Page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles_inicio.css">
+</head>
+<body class="bg-gray-100">
+    <header class="flex justify-between items-center p-4 bg-white shadow-md">
+        <div class="text-3xl font-bold text-black">🅱️</div>
+        <nav>
+            <ul class="flex space-x-6 text-gray-700">
+                <li><a href="index.html" class="text-blue-600 font-semibold">Inicio</a></li>
+                <li><a href="Productos.html" class="hover:text-blue-600">Products</a></li>
+                <li><a href="solutions.html" class="hover:text-blue-600">Solutions</a></li>
+                <li><a href="community.html" class="hover:text-blue-600">Community</a></li>
+                <li><a href="resources.html" class="hover:text-blue-600">Resources</a></li>
+                <li><a href="pricing.html" class="hover:text-blue-600">Pricing</a></li>
+                <li><a href="contact.html" class="hover:text-blue-600">Contact</a></li>
+            </ul>
+        </nav>
+        <div>
+            <button class="mr-4 text-black">Sign in</button>
+            <button class="bg-black text-white px-4 py-1 rounded-md">Register</button>
+        </div>
+    </header>
+
+    <main class="p-6">
+        <div class="relative w-full max-w-4xl mx-auto mb-8">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://placehold.co/800x400" alt="Slide 1" class="w-full h-auto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://placehold.co/800x400" alt="Slide 2" class="w-full h-auto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://placehold.co/800x400" alt="Slide 3" class="w-full h-auto">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control-next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/js/filtro/carrusell.js"></script>
+</body>
+</html>

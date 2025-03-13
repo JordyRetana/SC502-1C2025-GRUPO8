@@ -1,0 +1,131 @@
+.create-account-section {
+    background: linear-gradient(45deg, #232830, #33444d); 
+    color: #a1e7de; 
+    padding: 80px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-account-logo {
+    color: #ffffff; 
+    font-size: 5rem;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.create-account-section .lead {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.create-account-form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.create-account-form:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.create-account-form h3 {
+    color: #000000;
+    font-size: 1.8rem;
+}
+
+.create-account-form .form-control {
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #555;
+    font-weight: bold;
+}
+
+.create-account-form .form-control::placeholder {
+    color: #ccc;
+}
+
+.create-account-form button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.create-account-form button:hover {
+    background-color: #0056b3;
+}
+
+.create-account-form .btn-secondary {
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px;
+}
+
+.create-account-form .btn-secondary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.language-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.language-btn .dropdown {
+    display: inline-block;
+}
+
+.language-btn .btn {
+    background-color: transparent;
+    color: #f9f9f9; 
+    border: 1px solid #f9f6f6;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.language-btn .btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+
+.language-btn .dropdown-menu {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.language-btn .dropdown-item {
+    color: #000000;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.language-btn .dropdown-item:hover {
+    background-color: #f0f0f0;
+}

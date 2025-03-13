@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    color: #1f2937;
+}
+
+.bg-blue { background-color: #3b82f6; color: white; }
+.bg-light-blue { background-color: #dbeafe; color: black; }
+.bg-dark { background-color: #1f2937; color: white; }
+.bg-gray { background-color: #6b7280; color: white; }
+.bg-light-gray { background-color: #e5e7eb; color: black; }
+
+button {
+    transition: background-color 0.3s, color 0.3s;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+button:hover {
+    background-color: #1f2937;
+    color: white;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-item {
+    min-width: 100%;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+.carousel-item.active {
+    opacity: 1;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.carousel-control-prev {
+    left: 10px;
+}
+.carousel-control-next {
+    right: 10px;
+}
