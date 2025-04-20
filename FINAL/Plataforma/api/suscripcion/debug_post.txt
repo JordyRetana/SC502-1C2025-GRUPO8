@@ -1,0 +1,7 @@
+Array
+(
+    [plan] => Basic
+    [nombre] => Juan Jose Oviedo Chinchilla
+    [correo] => oviedochjj@gmail.com
+    [telefono] => 63521854
+)
